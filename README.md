@@ -67,7 +67,7 @@ launch the script while the tokens are valid.
 
 You then need to configure a URL to that server in the External Call Control Profile on the Cisco Unified Communications Manager server you intend to use. The URL needs to have a path even if you are just running it from the command line as shown above and the server code does not handle any paths, so for that example the line to configure in the ECCP in CUCM would be:
 
-http://<hostname>:8080/CURRI
+```http://<hostname>:8080/CURRI```
 
 More instructions on how to configure an ECCP and how to associated it to the various routing mechanisms in CUCM can be found here: 
 https://d1nmyq4gcgsfi5.cloudfront.net/site/curri/learn/how-to/configure-external-call-control-profile/
