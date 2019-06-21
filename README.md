@@ -80,5 +80,4 @@ Or in the equivalent for the version of CUCM you are using.
 - The use of get_all_contacts_dict(account) means we need to schedule a daily sync so that changes in Azure AD are synced with our contacts variable.
 - This code could be incorporated into a flask based application so that it can be deployed on any web server with WSGI capabilities.
 
-Many thanks to **Johan Sermon** (johan.sermon@proximus.com) for his contributions to this sample code and assistance testing and augmenting the initial functionality to have a full working example that can handle routing calls for mutiple O365 users in the directory. 
 
